@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(51, 12, 40);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    margin: auto;
+    margin-top: 30px;
+    width: 50%;
+    background-color: rgb(140, 6, 104);
+    color: rgb(255,255,255);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+main h1 {
+    color: rgb(242, 196, 235);
+    text-align: center;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000;
+}
+
+.converter-block {
+    display: flex;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(127, 6, 95);
+    border-radius: 5px;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.converter-block input {
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.converter-block label {
+    font-size: 1.5em;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000;
+    margin-bottom: 10px;
+}
+
+.input-data {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.output-data {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.equal {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000;
+}
