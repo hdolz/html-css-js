@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>TicTacToe</h1>
+        <hr>
+        <div class="game-container">
+            <div class="player-info">
+                <h3>Player X</h3>
+                <div class="score">
+                    <label>Score</label>
+                    <label id="scoreP1">0</label>
+                </div>
+                <h4 id="p1turn">Your turn</h4>
+            </div>
+            <div class="game-grid">
+                <div class="row">
+                    <button id="1" class="square" onclick="eventListener(1)"></button>
+                    <button id="2" class="square" onclick="eventListener(2)"></button>
+                    <button id="3" class="square" onclick="eventListener(3)"></button>
+                </div>
+                <div class="row">
+                    <button id="4" class="square" onclick="eventListener(4)"></button>
+                    <button id="5" class="square" onclick="eventListener(5)"></button>
+                    <button id="6" class="square" onclick="eventListener(6)"></button>
+                </div>
+                <div class="row">
+                    <button id="7" class="square" onclick="eventListener(7)"></button>
+                    <button id="8" class="square" onclick="eventListener(8)"></button>
+                    <button id="9" class="square" onclick="eventListener(9)"></button>
+                </div>
+            </div>
+            <div class="player-info">
+                <h3>Player O</h3>
+                <div class="score">
+                    <label>Score</label>
+                    <label id="scoreP2">0</label>
+                </div>
+                <h4 id="p2turn" hidden>Your turn</h4>
+            </div>
+        </div>
+        <button class="button-89" onclick="resetGame()">Reset</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
